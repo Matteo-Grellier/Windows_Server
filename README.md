@@ -10,4 +10,13 @@
 - ###  [TP n°5](./tp5/tp5.md)
 - ### Bonus : Gitlab
 
-## 
+## :hammer_and_wrench: Outils utilisés
+
+
+- Utilisation de **VMWare Workstation Player** pour les machines virtuelles (et de Oracle VM **VirtualBox** pour la **Windows Server**).
+- Utilisation de **GitHub** pour la documentation.
+- Utilisation de **Gitlab** pour la partie Bonus.
+
+## :link: Sources
+
+...

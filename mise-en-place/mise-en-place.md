@@ -49,7 +49,7 @@ Pour la **VM Linux**, il y a une différence, c'est qu'il n'y a pas de clé prod
 ![network config vm](./img/2022-01-29-185856.jpg)
 ![network config vm](./img/2022-01-29-185955.jpg)
 
-Pour la Windows Server, il faut qu'elle soit en **Accès par Pont**.
+Pour la Windows Server, il faut qu'elle soit en **Accès par Pont**.  
 ![network config vm](./img/2022-01-29-190038.jpg)
 
 Les autres doivent être en **NAT**.
