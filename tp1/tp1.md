@@ -77,7 +77,9 @@ Il faut aussi entrer un mot de passe de restauration.
 
 Dans la partie Options DNS, vous aurez un message qui vous informe qu'il est impossible de créer une délégation, ceci n'est pas grave (le serveur DNS est nouveau, par conséquent le message n'est pas important).
 
-Une fois dans la partie *Options supplémentaires*, on entre le nom de domaine `AZERTY`.
+Une fois dans la partie *Options supplémentaires*, on entre le nom de domaine NetBIOS `AZERTY`.
+
+> **NetBIOS** (NETwork Basic Input Output System) est une **architecture** réseau codéveloppée par IBM et Sytek (en) au début des années 1980. NetBIOS est utilisé **principalement par Microsoft**. Ce n'est pas un protocole réseau, mais un **système de nommage et une interface logicielle qui permet d’établir des sessions entre différents ordinateurs d’un réseau**. - [Wikipédia](https://fr.wikipedia.org/wiki/NetBIOS)
 
 ![domain](./img/domain/16.png)
 
