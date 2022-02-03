@@ -34,7 +34,7 @@ Une fois la machine de l'utilisateur rentré, on peut aller sur la **VM Client**
 
 Pour ce faire, nous devons aller dans *Panneau de configuration > Système et Sécurité > Système*. 
 
-Puis, on clique sur *Modifier les paramètres* (Si jamais, le paramètre n'est pas ici, il se peut que vous n'ayez pas une version Education ou Professionnel de votre Windows 10).
+Puis, on clique sur *Modifier les paramètres* (si jamais, le paramètre n'est pas ici, il se peut que vous n'ayez pas une version Education ou Professionnel de votre Windows 10).
 
 ![2](./img/2.png)
 
@@ -52,16 +52,22 @@ Maintenant, on peut redémarrer la machine virtuelle et essayer de se connecter 
 
 On entre donc le nom d'utilisateur (ici c'est la première connexion avec le compte de louis.brochard)
 
-Il y a 2 possibilités, soit le domaine est reconnu et par conséquent, il suffit de ce connecter juste comme ça.
+Il y a 2 possibilités, soit le domaine est reconnu et par conséquent, il suffit de se connecter juste comme ça.
 
 ![4](./img/4.png)
 
 Sinon, il faut rajouter le nom de domaine devant, ici c'est `AZERTY\nomutilisateur`
 ![6](./img/6.jpg)
 
-Etant la première connexion de Louis, il y a donc une demande de changement de mot de passe.
+Étant la première connexion de Louis, il y a donc une demande de changement de mot de passe.
 
 ![5](./img/5.png)
+
+## :chart_with_upwards_trend: Axes d'améliorations
+
+On aurait pu changer la stratégie de mot de passe, soit pour ajouter une sécurité, soit pour changer le nombre de caractère etc...
+
+De plus, si cela est possible, on pourrait avoir un script permettant d'ajouter des mots de passe personnalisés pour chaque utilisateur (avant qu'il ne le modifie eux-mêmes).
 
 
 [<-- TP n°3](../tp3/tp3.md)| Page 5 | [TP n°5 -->](../tp5/tp5.md)
