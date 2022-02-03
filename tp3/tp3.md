@@ -2,7 +2,7 @@
 
 ## Définitions
 
-``GPO`` : Group Policy Object
+``GPO`` : Group Policy Object : Ensemble de paramêtres s'appliquant à un ou plusieurs groupes de personnes.
 
 ## :clipboard: Consignes
 
@@ -40,28 +40,28 @@ Pour mettre en place cette gpo il y a deux options à activer dont :
     - ``Activer l'écran de veille`` : Permet comme son nom l'indique d'activer l'écran de veille  
     - ``Dépassement du délai d'expiration de l'écran de veille`` : Permet mettre un délai avant lequel l'écran de veille s'active  
 
-Pour ce faire il faut tout d'abord [créer une nouvelle GPO](#Créer_une_GPO)
+Pour ce faire il faut tout d'abord [créer une nouvelle GPO](#créer-une-gpo)
 
 ### Activation de l'écran de veille  
 
 Pour activer l'écran de veille il faut configurations utilisateurs => ``Stratégies`` => ``Modèles d'administration`` => ``Panneau de configuration`` => ``Personnalisation`` => ``Activer l'écran de veille``  
 
-Cela va ouvrir la fenêtre ci-dessous et il ne reste plus qu'a acitver la fonctionnalité
+Cela va ouvrir la fenêtre ci-dessous et il ne reste plus qu'a activer la fonctionnalité
 ![img](img/GPO%201/21_55_41.png)
 
 ### Délai d'activation de l'écran de veille
 
 Pour mettre délai sous lequel l'écran de veille s'active il faut aller dans
-configurations utilisateurs => Stratégies => Modèles d'administration =>
-Panneau de configuration => Personnalisation =>
-Dépassement du délai d'expiration de l'écran de veille ![img](img/GPO1/21_55_41.png)
+``configurations utilisateurs`` => ``Stratégies`` => ``Modèles d'administration`` =>
+``Panneau de configuration`` => ``Personnalisation`` =>
+``Dépassement du délai d'expiration de l'écran de veille`` ![img](img/GPO1/21_55_41.png)
 
 Cela va ouvrir la fênetre ci-dessous et il faut modifer ces différentes options donc :
     - Activé cette fonctionalité  
     - Définir un délai avant lequel l'écran de veille s'activera  ici 600secondes(10min)
 ![img](img/GPO1/21_26_20.png)
 
-Il ne reste plus qu'a [appliuqer la GPO à un groupe d'utilisateur](#Appliquer_la_GPO_a_un_groupe_d'utilisateur)
+Il ne reste plus qu'à [appliuqer la GPO à un groupe d'utilisateur](#appliquer-une-gpo-à-un-groupe-dutilisateur)
 
 ## GPO 2
 
@@ -82,11 +82,11 @@ et ensuite d'activer ces différentes options :
 cf.ci-dessous
 ![img](img/GPO2/01_09_21.png)
 
-Il ne reste plus qu'a [ajouter des utilisateurs à cette GPO](#Appliquer_la_GPO_a_un_groupe_d'utilisateur)
+Il ne reste plus qu'a [ajouter des utilisateurs à cette GPO](#appliquer-une-gpo-à-un-groupe-dutilisateur)
 
 ## GPO 3
 
-Cette GPO nous demandaient de déployer VirtualBox sur les postes utilisateurs.
+Cette GPO nous demandait de déployer VirtualBox sur les postes utilisateurs.
 Nous n'avons pas réussis a automatiquement déployer VirtualBox, On a juste réussi à ajouter VirtualBox à la liste des logiciels pouvant être installé manuellement par l'utilisateur [Mettre screen]
 
 ### Préparation
@@ -107,7 +107,7 @@ A la fin ca devrait ressembler à ceci ![img](img/GPO3/14_02_03.png)
 
 ### Ajout de la GPO
 
-il faut tout d'abord [créer une nouvelle GPO](#Créer_une_GPO)
+il faut tout d'abord [créer une nouvelle GPO](#créer-une-gpo)
 
 ## Déploiement Firefox
 
@@ -129,4 +129,4 @@ Ensuite il faut faire : ``Clique droit`` => ``ajouter un nouveau`` => ``Package`
 
 Il ne reste plus qu'a aller chercher le .MSi disponible sur le ``Dossier Partagé`` et vérifier que l'option séléctionnée est ``déployer``.
 
-Il ne reste plus qu'a [ajouter des utilisateurs à cette GPO](#Appliquer_la_GPO_a_un_groupe_d'utilisateur)
+Il ne reste plus qu'a [ajouter des utilisateurs à cette GPO](#appliquer-une-gpo-à-un-groupe-dutilisateur)
