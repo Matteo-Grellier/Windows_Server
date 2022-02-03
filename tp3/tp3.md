@@ -48,8 +48,8 @@ Pour ce faire il faut tout d'abord [créer une nouvelle GPO](#créer-une-gpo)
 
 Pour activer l'écran de veille il faut configurations utilisateurs => ``Stratégies`` => ``Modèles d'administration`` => ``Panneau de configuration`` => ``Personnalisation`` => ``Activer l'écran de veille``  
 
-Cela va ouvrir la fenêtre ci-dessous et il ne reste plus qu'a activer la fonctionnalité
-![img](img/GPO%201/21_55_41.png)
+Cela va ouvrir la fenêtre ci-dessous et il ne reste plus qu'à activer la fonctionnalité
+![img](img/GPO1/21_55_41.png)
 
 ### Délai d'activation de l'écran de veille
 
