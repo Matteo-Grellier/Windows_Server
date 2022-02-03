@@ -8,13 +8,13 @@ Ici, on nous demande de :
 - Créer des **OU**
 - Créer manuellement un *Utilisateur* **Charlie Turrel** dans l’*OU* **Back**.
 - Intégrer par **script**, le reste des *Utilisateurs* :
-    - Le script **PowerShell** d’intégration vous est fournit, expliquez ce qu’il fait ligne par ligne
-    - Le fichier CSV des Utilisateurs restants vous est fournit
+    - Le script **PowerShell** d’intégration vous est fourni, expliquez ce qu’il fait ligne par ligne
+    - Le fichier CSV des *Utilisateurs* restants vous est fourni
     - Exécution du script
     - Vérification de l’ajout des Utilisateurs
 
 
-## Création d'un domaine
+## :house: Création d'un domaine
 
 Tout d'abord, nous devons créer un domaine.
 
@@ -36,13 +36,13 @@ L'Assistant *Ajout des rôles et des fonctionnalités* s'ouvre. On va donc pouvo
 
 ![domain](./img/domain/4.png)
 
-Une fois dans *Sélection du serveur*, on peut choisir la machine actuelle (Windows Serveur).
+Une fois dans *Sélection du serveur*, on peut choisir la machine actuelle (Windows Server).
 
 ![domain](./img/domain/5.png)
 
 On clique sur *Suivant*, et on arrive sur une partie importante : *Le Choix des rôles des serveurs*.
 
-A ce moment là, on choisit ce que l'on veut pour notre Serveur. Dans notre cas, on choisit le **Serveur DHCP**, **Serveur DNS**, et **Serveur AD DS**. Le plus important est le **Serveur AD DS** qui va nous permettre de faire toute la configuration des **unités d'organisation** etc...
+À ce moment-là, on choisit ce que l'on veut pour notre Serveur. Dans notre cas, on choisit le **Serveur DHCP**, **Serveur DNS**, et **Serveur AD DS**. Le plus important est le **Serveur AD DS** qui va nous permettre de faire toute la configuration des **unités d'organisation** etc...
 
 ![domain](./img/domain/8.png)
 
@@ -53,7 +53,7 @@ A ce moment là, on choisit ce que l'on veut pour notre Serveur. Dans notre cas,
 
 ![domain](./img/domain/7.png)
 
-Une fois cliqué sur *Suivant*, on a un onglet **Fonctionnalités** qui s'ouver. Dans notre cas, il est inutile d'ajouter des fonctionnalités, donc on appuie sur *Suivant*.
+Une fois cliqué sur *Suivant*, on a un onglet **Fonctionnalités** qui s'ouvre. Dans notre cas, il est inutile d'ajouter des fonctionnalités, donc on appuie sur *Suivant*.
 
 Maintenant, on peut appuyer sur Suivant, jusqu'à arriver sur la *Confirmation*. On peut appuyer sur *Installer*.
 
@@ -63,13 +63,13 @@ Une fois l'installation fini, on peut fermer l'**Assistant**, et retourner sur l
 
 ![domain](./img/domain/12.png)
 
-L'*Assistant de Configuration des services de domaine Active Directory* s'ouvre, et on peut configurer notre **forêt**. Pour ce faire, on choisit l'option *Ajouter une forêt* et on choisi le **nom du domaine racine**. Ici le nom sera **AZERTY** et par convention, on nommera le domaine ``azerty.local``.
+L'*Assistant de Configuration des services de domaine Active Directory* s'ouvre, et on peut configurer notre **forêt**. Pour ce faire, on choisit l'option *Ajouter une forêt* et on choisit le **nom du domaine racine**. Ici le nom sera **AZERTY** et par convention, on nommera le domaine ``azerty.local``.
 
 ![domain](./img/domain/13.png)
 
 On appuie sur *Suivant*, puis on arrive sur les *Options du contrôleur de domaine*.
 
-Il faut choisir **Windows Server 2016** car il n'y a pas plus récent (même si vous avez une version ultérieur, par exemple Windows Server 2019).
+Il faut choisir **Windows Server 2016** car il n'y a pas plus récent (même si vous avez une version ultérieure, par exemple Windows Server 2019).
 
 Il faut aussi entrer un mot de passe de restauration.
 
@@ -89,16 +89,16 @@ Puis, on ne touche pas au *Chemins d'accès*. Donc on continue vers *Examiner le
 
 ![domain](./img/domain/18.png)
 
-On arrive à une étape importante, avec laquelle on peut avoir des problèmes. En effet, dans la partie *Vérification de la configuration requise*, il se peut que l'on est **cette erreur** :
+On arrive à une étape importante, avec laquelle on peut avoir des problèmes. En effet, dans la partie *Vérification de la configuration requise*, il se peut que l'on ait **cette erreur** :
 
 
 ![domain](./img/domain/19.png)
 
-Si vous n'avez pas d'erreur vous pouvez sauter la prochaine section en allant [ici](#s-il-n-y-a-pas/plus-d-erreur).
+Si vous n'avez pas d'erreur vous pouvez sauter la prochaine section en allant [ici](#sil-ny-a-pasplus-derreur).
 
 ### S'il y a une erreur.
 
-Dans notre cas, c'est une histoire de mot de passe administrateur, qui n'a pas été définit. 
+Dans notre cas, c'est une histoire de mot de passe administrateur, qui n'a pas été défini. 
 
 Pour ce faire, on va dans ``Panneau de configuration > Comptes Utilisateurs > Comptes utilisateurs`` 
 
@@ -107,7 +107,7 @@ Pour ce faire, on va dans ``Panneau de configuration > Comptes Utilisateurs > Co
 
 On arrive sur une page avec le nom du compte local et plusieurs options. À ce moment, il faut cliquer sur *Gérer un autre compte*.
 
-On arrivera sur un Menu avec plusieurs compte, dont le compte **ADMINISTRATEUR**.
+On arrivera sur un Menu avec plusieurs comptes, dont le compte **ADMINISTRATEUR**.
 
 ![domain](./img/domain/27.png)
 
@@ -139,7 +139,7 @@ Un **redémarrage** va se faire, et on sera ensuite directement sur le domaine *
 On va donc pouvoir passer à création d'une **OU**.
 
 
-## Création des Unité d'Organisation (OU)
+## :family_man_boy_boy: Création des Unité d'Organisation (OU)
 
 > Une **unité organisationnelle** (OU) ou unité d'organisation est un **conteneur** dans un domaine Microsoft Active Directory qui peut contenir des **utilisateurs**, des **groupes** et des **ordinateurs**. - [Wikipédia](https://fr.wikipedia.org/wiki/Unit%C3%A9_organisationnelle) 
 
@@ -154,9 +154,9 @@ Un nouveau menu s'ouvre alors, nous permettant de choisir un nom (dans notre cas
 
 ![2](./img/2.png)
 
-## Création d'un Utilisateur
+## :man_technologist: Création d'un Utilisateur
 
-Maintenant que l'organisation est fait, il suffit de créer l'Utilisateur **Charlie Turrel** dans l'OU **Back** :
+Maintenant que l'organisation est faite, il suffit de créer l'Utilisateur **Charlie Turrel** dans l'OU **Back** :
 
 ![4](./img/4.png)
 ![5](./img/5.png)
@@ -166,7 +166,14 @@ Maintenant que l'organisation est fait, il suffit de créer l'Utilisateur **Char
 Voici le script permettant d'intégrer les autres utilisateurs :
 
 ```powershell
+manque le script
 ```
+
+## :chart_with_upwards_trend: Axes d'améliorations
+
+Même si dans le cadre du TP ce n'était pas important, on pourrait avoir un nom de domaine rootable (en effet, ici nous avons utilisé un nom de domaine sous la forme nom.local).
+
+Ici, nous n'avons pas eu le script pour l'automatisation de l'ajout des utilisateurs. Le fait d'automatiser est une amélioration dans le cadre professionnel.
 
 
 [<-- Mise en place de l'environnement](../mise-en-place/mise-en-place.md)| Page 2 | [TP n°2 -->](../tp2/tp2.md) 

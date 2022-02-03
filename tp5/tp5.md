@@ -62,3 +62,17 @@ On entre l'emplacement du dossier, et on appuie sur *Suivant*.
 Apparaît maintenant une page de confirmation pour vérifier tous vos paramètres. Une fois qu'ils sont vérifiés, vous pouvez appuyer sur *Terminer*.
 
 Et voilà pour le TP5.
+
+## :chart_with_upwards_trend: Axes d'améliorations
+
+On pourrait avoir un système de sauvegarde plus "optimisé".
+
+En effet, ici on fait une **sauvegarde complètes**. Mais si on voulait **optimisé l'espace de stockage**, on pourrait faire une **sauvegarde** de type **Incrémentale** ou alors **Différentiel**.
+
+> La sauvegarde **complète** consiste à copier l'ensemble des fichiers et dossiers d'un système. Chaque fois que vous effectuez une sauvegarde complète, vous stockez entièrement et une nouvelle fois la source de données. - [Netexplorer.com](https://www.netexplorer.fr/blog/quels-sont-les-differents-types-de-sauvegardes)
+
+> La **sauvegarde incrémentale** effectue d'abord une première copie complète de toutes vos données et chaque sauvegarde qui vient après permet d'enregistrer les modifications apportées depuis la dernière sauvegarde. - [Netexplorer.com](https://www.netexplorer.fr/blog/quels-sont-les-differents-types-de-sauvegardes)
+
+> Comme avec la sauvegarde incrémentale, la **différentielle** va effectuer une copie initiale et complète de tous vos fichiers et dossiers. Mais les prochaines sauvegardes vont permettre de stocker tous les changements apportés depuis votre dernière sauvegarde complète. - [Netexplorer.com](https://www.netexplorer.fr/blog/quels-sont-les-differents-types-de-sauvegardes)
+
+[<-- TP n°4](../tp4/tp4.md)| Page 6 | [Conclusion -->](../conclu/conclusion.md)

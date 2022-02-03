@@ -15,7 +15,7 @@ Ici, on nous demande :
 Quel répertoire dans WS est le plus sécurisé pour stocker les dossiers de la société ?
 
 
-## Mise en plade d'un Dossier partagés
+## :open_file_folder: Mise en place d'un Dossier partagé
 
 ### Création des dossiers *Facturation*, *Back*, et *Front*
 
@@ -33,7 +33,7 @@ Il faut bien mettre le nom de groupe que l'on veut (ici **Développement** pour 
 
 Une fois ceci fait, on va pouvoir mettre des groupes de sécurité sur les **dossiers**, afin de faire un partage bien structuré des données de ces *dossiers*.
 
-Pour ce faire, on clique sur `Priopriétés` sur le **dossier**.
+Pour ce faire, on clique sur `Propriétés` sur le **dossier**.
 
 Dans un premier temps, on fait en sorte de partager le dossier.
 
@@ -53,14 +53,13 @@ Maintenant, on peut configurer les droits pour chaque groupe de sécurité :
 
 ![3](./img/3.png)
 
-Bien entendu il faut, pour le groupe Facturation, qu'il n'ai pas les droits de Lecture (ni d'écriture/Modification) sur le dossier Développement : **Il faut donc décocher toutes les cases**.
+Bien entendu il faut, pour le groupe *Facturation*, qu'il n'ait pas les droits de **lecture** (ni d'écriture/modification) sur le dossier *Développement* : **Il faut donc décocher toutes les cases**.
 
 Pour le cas de l'équipe de **Développement**, il suffit de leur laissé les **droits de lecture** sur le dossier Facturation.
 
-## Quel répertoire dans WS est le plus sécurisé pour stocker les dossiers de la société ?
+## :lock: Quel répertoire dans WS est le plus sécurisé pour stocker les dossiers de la société ?
 
-Le répertoire dans WS qui est le plus sécurisé pour stocker les dossiers de la société est ...
-
+Le répertoire dans WS qui est le plus sécurisé pour stocker les dossiers de la société est celui où seul un administrateur y a accès.
 
 [<-- TP n°1](../tp1/tp1.md)| Page 3 | [TP n°3 -->](../tp3/tp3.md)
 
