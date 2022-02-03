@@ -28,7 +28,9 @@ On peut ensuite la modifier en faisant clique droit sur la GPO en question et cl
 
 ## Appliquer une GPO à un groupe d'utilisateur
 
-    Pour appliquer la GPO à un groupe d'utilisateur ici ``Dévellopement`` il faut aller sur la GPO que l'on souhaite et Ajouter un nouveau groupe d'utilisateur
+Pour appliquer la GPO à un groupe d'utilisateur ici ``Dévellopement`` il faut aller sur la GPO que l'on souhaite et Ajouter un nouveau groupe d'utilisateur ![img](img/CreateGPO/13_12_18.png)
+Ici par exemple on ajoute le groupe dévellopement à la GPO
+![img](img/CreateGPO/13_12_36.png)
 
 A partir de la on peut effectuer les 3 gpo demander :  
 
