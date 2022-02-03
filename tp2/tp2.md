@@ -15,7 +15,7 @@ Ici, on nous demande :
 Quel répertoire dans WS est le plus sécurisé pour stocker les dossiers de la société ?
 
 
-## Mise en place d'un Dossier partagé
+## :open_file_folder: Mise en place d'un Dossier partagé
 
 ### Création des dossiers *Facturation*, *Back*, et *Front*
 
@@ -57,7 +57,7 @@ Bien entendu il faut, pour le groupe *Facturation*, qu'il n'ait pas les droits d
 
 Pour le cas de l'équipe de **Développement**, il suffit de leur laissé les **droits de lecture** sur le dossier Facturation.
 
-## Quel répertoire dans WS est le plus sécurisé pour stocker les dossiers de la société ?
+## :lock: Quel répertoire dans WS est le plus sécurisé pour stocker les dossiers de la société ?
 
 Le répertoire dans WS qui est le plus sécurisé pour stocker les dossiers de la société est celui où seul un administrateur y a accès.
 

@@ -16,7 +16,7 @@ Ici, on nous demande de faire :
     AZERTY\nom_de_l’utilisateur
     - Testez les différentes GPO.
 
-## Liason au domaine
+## :link: Liason au domaine
 
 ### Renseignement des postes dans le contrôleur de domaine.
 
@@ -46,7 +46,7 @@ Ici nous rentrons le nom de domaine ``azerty.local``.
 
 ![3](./img/3.png)
 
-## Test d'une connexion au domaine
+## :link: Test d'une connexion au domaine
 
 Maintenant, on peut redémarrer la machine virtuelle et essayer de se connecter au domaine via un Utilisateur existant dans le domaine.
 

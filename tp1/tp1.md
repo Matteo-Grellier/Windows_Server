@@ -14,7 +14,7 @@ Ici, on nous demande de :
     - Vérification de l’ajout des Utilisateurs
 
 
-## Création d'un domaine
+## :house: Création d'un domaine
 
 Tout d'abord, nous devons créer un domaine.
 
@@ -139,7 +139,7 @@ Un **redémarrage** va se faire, et on sera ensuite directement sur le domaine *
 On va donc pouvoir passer à création d'une **OU**.
 
 
-## Création des Unité d'Organisation (OU)
+## :family_man_boy_boy: Création des Unité d'Organisation (OU)
 
 > Une **unité organisationnelle** (OU) ou unité d'organisation est un **conteneur** dans un domaine Microsoft Active Directory qui peut contenir des **utilisateurs**, des **groupes** et des **ordinateurs**. - [Wikipédia](https://fr.wikipedia.org/wiki/Unit%C3%A9_organisationnelle) 
 
@@ -154,7 +154,7 @@ Un nouveau menu s'ouvre alors, nous permettant de choisir un nom (dans notre cas
 
 ![2](./img/2.png)
 
-## Création d'un Utilisateur
+## :man_technologist: Création d'un Utilisateur
 
 Maintenant que l'organisation est faite, il suffit de créer l'Utilisateur **Charlie Turrel** dans l'OU **Back** :
 
