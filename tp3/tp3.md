@@ -26,7 +26,10 @@ On peut ensuite la modifier en faisant clique droit sur la GPO en question et cl
 
 ## Appliquer une GPO à un groupe d'utilisateur
 
-Pour appliquer la GPO à un groupe d'utilisateurs ici ``Développement`` il faut aller sur la GPO que l'on souhaite et Ajouter un nouveau groupe d'utilisateurs
+Pour appliquer la GPO à un groupe d'utilisateurs ici ``Développement`` il faut aller sur la GPO que l'on souhaite et Ajouter un nouveau groupe d'utilisateurs.
+![img](img/CreateGPO/13_12_18.png)
+Ici par exemple on ajoute le groupe *Développement* à la GPO.
+![img](img/CreateGPO/13_12_36.png)
 
 À partir de là on peut effectuer les **3 GPO** demandées :  
 
@@ -45,6 +48,7 @@ Pour ce faire il faut tout d'abord [créer une nouvelle GPO](#créer-une-gpo)
 Pour activer l'écran de veille il faut aller dans ``configurations utilisateurs`` => ``Stratégies`` => ``Modèles d'administration`` => ``Panneau de configuration`` => ``Personnalisation`` => ``Activer l'écran de veille``  
 
 Cela va ouvrir la fenêtre ci-dessous et il ne reste plus qu'à activer la fonctionnalité.
+
 ![img](img/GPO1/21_55_41.png)
 
 ### Délai d'activation de l'écran de veille
