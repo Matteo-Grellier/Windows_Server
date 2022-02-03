@@ -4,7 +4,7 @@
 
 Afin de mettre en place notre environnement, il nous fallait récupérer de quoi faire des VMs.
 
-Nous avions besoin 3 VMs de différentes :
+Nous avions besoin 3 VMs différentes :
 - une machine sous **Windows Server**
 - une machine sous **Windows 10** (Education ou Professionnel) 
 - une machine sous **Linux** (Debian 11)
