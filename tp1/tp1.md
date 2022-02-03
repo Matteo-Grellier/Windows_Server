@@ -94,7 +94,7 @@ On arrive à une étape importante, avec laquelle on peut avoir des problèmes. 
 
 ![domain](./img/domain/19.png)
 
-Si vous n'avez pas d'erreur vous pouvez sauter la prochaine section en allant [ici](#s-il-n-y-a-pas/plus-d-erreur).
+Si vous n'avez pas d'erreur vous pouvez sauter la prochaine section en allant [ici](#sil-ny-a-pasplus-derreur).
 
 ### S'il y a une erreur.
 
